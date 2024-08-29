@@ -171,18 +171,15 @@ aside{
     position: relative;
     width: 50px;
     height: 50px;
-    margin: 2rem 1rem 1.5rem 20rem;
+    margin: 2rem 1rem 1.5rem 0rem;
     cursor: pointer;
 }
 
-.hide-aside div{
-    position: absolute;
-    width: 100%;
-    height: 15%;
-    margin-bottom: 1rem;
-    border-radius: 19px;
-    background: white;
+.hide-aside img{
+    width: 40px;
+    height: 40px;
 }
+
 
 .top{
     position: absolute;
