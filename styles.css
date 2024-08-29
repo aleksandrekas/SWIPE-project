@@ -257,8 +257,21 @@ aside{
 
 
 
+/* ------------partners----------- */
 
 
+.grid-item{
+    width: 200px;
+    height: 60px;
+}
+
+
+.partners-grid-container{
+    display: grid;
+    grid-template:repeat(2,1fr)/repeat(4,1fr);
+    gap: 20px;
+    margin-top: 5.5rem;
+}
 
 
 

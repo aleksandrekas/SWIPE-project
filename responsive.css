@@ -23,6 +23,16 @@
         font-size: 70px;
         line-height: 6rem;
     }
+
+    .grid-item{
+        width: 150px;
+        height: 50px;
+    }
+
+    .partners-grid-container{
+        gap: 15px;
+        margin-top: 5rem;
+    }
 }
 
 
@@ -76,5 +86,14 @@
 @media only screen and (max-width:650px){
     .hero-phone{
         display: none;
+    }
+
+    .partners-grid-container{
+        grid-template:repeat(4,1fr)/repeat(2,1fr);
+    }
+
+    .grid-item{
+        width: 200px;
+        height: 60px;
     }
 }
