@@ -1,0 +1,301 @@
+:root{
+    --bg-light:#F7F9FC;
+    --dark-blue-bg:#0A2540;
+    --purple-color-v1:#6962F7;
+    --light-blue:#00D4FF;
+    --purple:#7000FF;
+    --hover-collor:#6d7a88;
+    --button-font-size: 16px;
+    --button-weight:700;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Anek Telugu", sans-serif;
+}
+
+
+
+section{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    top: -70%;
+    left: -500px;
+    z-index: -1;
+    background: linear-gradient(45deg, #ef008f,#6ec3f4,#7038ff,#ffba27);
+    width: 200%;
+    height: 100%;
+    transform: rotate(-10deg);
+    background-size: 300% 300%;
+    animation: color 15s ease-in-out infinite;
+}
+
+.content-container{
+    max-width: 1145px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list{
+    margin-top: 0.4rem;
+    display: flex;
+    list-style: none;
+}
+
+.navbar-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 1.2rem;
+}
+
+.navbar-list li a:hover{
+    text-decoration: underline;
+}
+
+
+.navbar-btn-default{
+    width: 90px;
+    height: 35px;
+    border-radius: 19px;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    background: rgba(0,0,0,0.2);
+}
+
+.welcome{
+    padding-top: 2rem;
+}
+
+
+
+.hamburger-btn{
+    display: none;
+}
+
+
+
+aside{
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding-left: 2rem;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background: var(--dark-blue-bg);
+    transition: 0.2s;
+}
+
+
+.hide{
+    transform: translateX(100%);
+    transition: 0.2s ease-in-out;
+}
+
+
+.dark-blue-btn-default{
+    width: 136px;
+    height: 40px;
+    background: var(--dark-blue-bg);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 19px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.white-blue-btn-default{
+    width: 136px;
+    height: 40px;
+    background: white;
+    color:var(--dark-blue-bg);
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-radius: 19px;
+    border: none;
+    cursor: pointer;
+}
+
+.aside-btn:hover{
+    background: var(--hover-collor);
+}
+
+.aside-list{
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.aside-items{
+    margin-bottom: 1rem;
+}
+
+.aside-items a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
+.aside-items a:hover{
+    text-decoration: underline;
+}
+
+
+.hide-aside{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 2rem 1rem 1.5rem 20rem;
+    cursor: pointer;
+}
+
+.hide-aside div{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    margin-bottom: 1rem;
+    border-radius: 19px;
+    background: white;
+}
+
+.top{
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.bot{
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+
+/* ----------------------payments-cont------------ */
+
+.hero-phone{
+    width:360px;
+    height: 628px;
+}
+
+.balanced{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.2s;
+    margin-right: 1rem;
+}
+
+.balanced img{
+    margin-left: 1px;
+    width: 24px;
+    height: 24px;
+}
+
+
+.balanced:hover .arrow {
+    transform: translateX(5px);
+    transition: 0.2s;
+}
+
+.payments-cont{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    max-width:600px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.btns{
+    display: flex;
+}
+
+.purple-btn{
+    color: var(--purple);
+    background: none;
+}
+
+
+
+.left h1{
+    font-size: 94px;
+    line-height: 8rem;
+}
+.left p{
+    font-size: 16px;
+    width: 80%;
+    margin: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
