@@ -90,12 +90,10 @@
 
     .partners-grid-container{
         grid-template:repeat(4,1fr)/repeat(2,1fr);
-        gap: 0px;
     }
 
     .grid-item{
         width: 200px;
         height: 60px;
-        margin-bottom: 2rem;
     }
 }
