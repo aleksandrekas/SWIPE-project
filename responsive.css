@@ -96,6 +96,16 @@
         width: 200px;
         height: 60px;
     }
+
+    .unified{
+        flex-direction: column;
+    }
+    .left-div{
+        max-width: 100%;
+    }
+    .right{
+        margin-top: 1rem;
+    }
 }
 
 

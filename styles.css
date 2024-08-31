@@ -18,7 +18,10 @@
 
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: "Anek Telugu", sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -26,8 +29,8 @@ body{
 section{
     position: relative;
     width: 100vw;
-    height: 100vh;
     overflow-x: hidden;
+    padding-bottom: 5rem;
 }
 
 .header::before{
@@ -97,7 +100,7 @@ nav{
 
 
 aside{
-    position: absolute;
+    position: fixed;
     width: 60vw;
     height: 100vh;
     top: 0;
@@ -275,17 +278,67 @@ aside{
 
 
 
+/* -------------unified platform------------ */
+.unified-platform{
+    background: var(--bg-light);
+    padding-top: 5rem;
+}
 
 
+.unified{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-div{
+    max-width: 50%;
+    margin-right: 2rem;
+}
+
+.left-div h5{
+    font-size: 17px;
+    color: var(--purple);
+    font-weight: 400;
+    margin-bottom: 1rem;
+
+}
+
+.left-div h1{
+    font-size: 40px;
+    margin-bottom: 1rem;
+
+}
 
 
+.unified p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.unified a{
+    text-decoration: none;
+    color: var(--purple);
+}
 
 
+.unified a:hover{
+    color: black;
+}
+
+.purple{
+    background: var(--purple);
+}
+
+.purple:hover{
+    background: var(--dark-blue-bg);
+}
 
 
-
-
-
+.right{
+    margin-top: 7rem;
+}
 
 
 
