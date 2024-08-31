@@ -7,6 +7,14 @@
     --hover-collor:#6d7a88;
     --button-font-size: 16px;
     --button-weight:700;
+    --standard-box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    --primary-gradient: linear-gradient(
+        101.33deg,
+        #08209a 0.76%,
+        #6563ff 33.33%,
+        #36c5f0 76.92%,
+        #83e2ff 96.96%
+      );
 }
 
 
@@ -341,6 +349,40 @@ aside{
 }
 
 
+.unified-grid{
+    margin-top: 4rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: 
+    "card invoice invoice"
+    "phone  invoice invoice"
+    "phone  dash dash"
+    "phone  dash dash";
+}
+
+.card{
+    max-width: 100%;
+    grid-area: card;
+}
+
+.phone{
+    max-width: 100%;
+    grid-area: phone;
+}
+
+.invoice{
+    max-width: 100%;
+    grid-area: invoice;
+    box-shadow: var(--standard-box-shadow);
+    border-radius: 19px;
+}
+
+.dash{
+    max-width: 100%;
+    grid-area: dash;
+    box-shadow: var(--standard-box-shadow);
+    border-radius: 19px;
+}
 
 
 
