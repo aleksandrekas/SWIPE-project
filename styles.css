@@ -413,11 +413,9 @@ aside{
     left: 0;
     width: 100vw;
     height: 120%;
-    background-size: 300% 300%;
     background-color: var(--dark-blue-bg);
     z-index: -1;
     transform: skewY(-10deg);
-    overflow-x: hidden;
 }
 
 
