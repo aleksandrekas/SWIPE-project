@@ -127,6 +127,9 @@
 
 
 @media only screen and (max-width:650px){
+    body{
+        overflow-x: visible;
+    }
     .hero-phone{
         display: none;
     }
@@ -143,8 +146,14 @@
     .unified{
         flex-direction: column;
     }
+
+    .eng-grid{
+        gap: 0px;
+    }
     .left-div{
         max-width: 100%;
+        box-sizing: border-box;
+        padding: 0;
     }
     .right{
         margin-top: 1rem;
