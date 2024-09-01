@@ -168,6 +168,23 @@
         width: 90%;
     }
 
+    .eng-div h1{
+        width: 90%;
+        font-size: 2rem;
+    }
+
+    .eng-div p{
+        font-size: 1rem;
+        width: 30%;
+    }
+
+
+    .integrations{
+        transform: translateX(-30px);
+    }
+
+
+
     .eng-grid{
         gap: 0px;
     }
@@ -186,9 +203,5 @@
 
     .small-div p{
         width: 100%;
-    }
-
-    .integrations{
-        transform: translateX(-20px);
     }
 }
