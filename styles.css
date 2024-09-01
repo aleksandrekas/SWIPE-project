@@ -290,6 +290,7 @@ aside{
 .unified-platform{
     background: var(--bg-light);
     padding-top: 5rem;
+    z-index: 1;
 }
 
 
@@ -396,6 +397,34 @@ aside{
 
 /* ---------------------designed for enginers----------------------- */
 
+.designed-for-engineers {
+    position: relative;
+    padding-top: 10rem;
+    background: var(--bg-light);
+    z-index: 1;
+    /* Remove overflow: hidden; */
+    height: 950px;
+    overflow: visible; /* Ensure the container allows overflow */
+}
+
+.designed-for-engineers::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -57%;
+    width: 200%;
+    height: 110%;
+    background-size: 300% 300%;
+    background-color: var(--dark-blue-bg);
+    z-index: -1;
+    transform: rotate(-10deg);
+}
+
+
+
+
+
+
 .eng-grid{
     gap: 1rem;
     display: grid;
@@ -406,6 +435,13 @@ aside{
     "tools integrations server server";
 }
 
+.eng-div h5{
+    color: var(--light-blue);
+}
+
+.eng-div h1,h3,p{
+    color: white;
+}
 
 .light-blue{
     color: var(--dark-blue-bg);
