@@ -28,6 +28,7 @@
 body{
     display: flex;
     flex-direction: column;
+    /* overflow-x: hidden; */
     font-family: "Anek Telugu", sans-serif;
 }
 
@@ -35,7 +36,6 @@ body{
 
 section{
     position: relative;
-    width: 100vw;
     padding-bottom: 5rem;
 }
 
