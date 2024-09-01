@@ -406,17 +406,17 @@ aside{
     overflow-x: visible;
 }
 
-/* .designed-for-engineers::after{
+.designed-for-engineers::after{
     content: '';
     position: absolute;
     top: -9%;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 120%;
     background-color: var(--dark-blue-bg);
     z-index: -1;
     transform: skewY(-10deg);
-} */
+}
 
 
 
