@@ -439,9 +439,15 @@ aside{
     color: var(--light-blue);
 }
 
-.eng-div h1,h3,p{
+.eng-div h1{
     color: white;
 }
+
+.eng-div p{
+    color: white;
+}
+
+
 
 .light-blue{
     color: var(--dark-blue-bg);
@@ -491,10 +497,12 @@ aside{
 .small-div h3{
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: white;
 }
 
 .small-div p{
     margin-bottom: 1rem;
+    color: white;
 }
 
 .light-blue-btn{
