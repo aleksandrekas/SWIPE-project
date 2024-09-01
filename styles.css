@@ -403,20 +403,21 @@ aside{
     background: var(--bg-light);
     z-index: 1;
     height: 950px;
-    overflow: visible;
+    overflow-x: visible;
 }
 
 .designed-for-engineers::after{
     content: '';
     position: absolute;
-    top: 0;
-    left: -57%;
-    width: 200vW;
-    height: 110%;
+    top: -9%;
+    left: 0;
+    width: 100vw;
+    height: 120%;
     background-size: 300% 300%;
     background-color: var(--dark-blue-bg);
     z-index: -1;
-    transform: rotate(-10deg);
+    transform: skewY(-10deg);
+    overflow-x: hidden;
 }
 
 
