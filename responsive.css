@@ -64,6 +64,7 @@
     }
 
     .small-div{
+        margin-top: 1rem;
         width: 100%;
     }
     .small-div img,h3,p{
@@ -162,5 +163,14 @@
         width: 150px;
         height: 50px;
     }
+
+    .eng-div p{
+        width: 90%;
+    }
+
+    .eng-grid{
+        gap: 0px;
+    }
+
     
 }

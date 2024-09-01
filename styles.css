@@ -148,7 +148,7 @@ aside{
     color:var(--dark-blue-bg);
     font-size: 1.2rem;
     font-weight: 900;
-    border-radius: 19px;
+    text-align: left;
     border: none;
     cursor: pointer;
 }
@@ -471,6 +471,10 @@ aside{
 
 .light-blue-btn img{
     margin-top: 12px;
+}
+
+.right-btn{
+    transform: translateX(-20px);
 }
 
 
