@@ -404,7 +404,7 @@ aside{
     z-index: 1;
     overflow-x: hidden;
     height: 950px;
-    overflow: visible; /* Ensure the container allows overflow */
+    overflow-x: visible; /* Ensure the container allows overflow */
 }
 
 .designed-for-engineers::after{
