@@ -144,7 +144,7 @@ aside{
 .white-blue-btn-default{
     width: 136px;
     height: 40px;
-    background: white;
+    background: none;
     color:var(--dark-blue-bg);
     font-size: 1.2rem;
     font-weight: 900;
@@ -299,8 +299,11 @@ aside{
     align-items: center;
 }
 
-.left-div{
+.uni-div{
     max-width: 50%;
+}
+
+.left-div{
     margin-right: 2rem;
 }
 
@@ -318,6 +321,12 @@ aside{
 
 }
 
+
+.left-div p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
 
 .unified p{
     font-size: 18px;
@@ -385,11 +394,84 @@ aside{
 }
 
 
+/* ---------------------designed for enginers----------------------- */
+
+.eng-grid{
+    gap: 1rem;
+    display: grid;
+    grid-template-areas: 
+    "eng-div eng-div api-code api-code"
+    "eng-div eng-div api-code api-code"
+    "tools integrations server server"
+    "tools integrations server server";
+}
 
 
+.light-blue{
+    color: var(--dark-blue-bg);
+    background: var(--light-blue);
+}
+
+.eng-grid img{
+    border-radius: 19px;
+    max-width: 470px;
+}
 
 
+.eng-div{
+    max-width: 70%;
+    grid-area: eng-div;
+}
 
+.tools{
+    grid-area: tools;
+}
+
+.integrations{
+    grid-area: integrations;
+}
+
+.api-code{
+    max-width: 100%;
+    grid-area: api-code;
+}
+
+.server{
+    max-width: 100%;
+    grid-area: server;
+}
+
+
+.small-div{
+    max-width: 80%;
+}
+
+.small-div img{
+    width: 50px;
+    border-radius: 0px;
+    margin-bottom: 1rem;
+}
+
+.small-div h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.small-div p{
+    margin-bottom: 1rem;
+}
+
+.light-blue-btn{
+    margin-top: 1rem;
+    color: var(--light-blue);
+    width: 200px;
+    margin-right: rem;
+}
+
+
+.light-blue-btn img{
+    margin-top: 12px;
+}
 
 
 

@@ -22,6 +22,14 @@
 }
 
 
+
+@media only screen and (max-width:1000px){
+    .eng-grid img{
+        max-width: 370px;
+    }
+}
+
+
 @media only screen and (max-width:850px){
     .left h1{
         font-size: 70px;
@@ -36,6 +44,36 @@
     .partners-grid-container{
         gap: 15px;
         margin-top: 5rem;
+    }
+
+    .api-code{
+        display: none;
+    }
+    .server{
+        display: none;
+    }
+    .eng-grid{
+        gap: 1rem;
+        display: grid;
+        grid-template-areas: 
+        "eng-div eng-div"
+        "eng-div eng-div"
+        "tools integrations"
+        "tools integrations"
+      ;
+    }
+
+    .small-div{
+        width: 100%;
+    }
+    .small-div img,h3,p{
+        margin-bottom: 0.1rem;
+    }
+    .light-blue-btn img{
+        margin-bottom: 12px;
+    }
+    .left-btn{
+        margin-top: 2.2rem;
     }
 }
 
