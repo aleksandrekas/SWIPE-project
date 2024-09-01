@@ -406,7 +406,7 @@ aside{
     overflow-x: visible;
 }
 
-.designed-for-engineers::after{
+/* .designed-for-engineers::after{
     content: '';
     position: absolute;
     top: -9%;
@@ -416,7 +416,7 @@ aside{
     background-color: var(--dark-blue-bg);
     z-index: -1;
     transform: skewY(-10deg);
-}
+} */
 
 
 
