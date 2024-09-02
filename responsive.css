@@ -117,6 +117,35 @@
 }
 
 
+@media only screen and (max-width:550px){
+    .engineers{
+        margin-top: 5rem;
+        gap: 0px;
+        grid-template-areas: 
+        "eng-div eng-div "
+        "eng-div eng-div"
+        "tools tools "
+        "integrations integrations";
+    }
+
+    .small-box h4{
+        font-size: 16px;
+    }
+
+    .small-box{
+        margin: 2rem 0;
+    }
+
+    .small-box p{
+        width: 262px;
+    }
+
+    .api-code ,.server{
+        display: none;
+    }
+}
+
+
 
 
 @media only screen and (max-width:450px){

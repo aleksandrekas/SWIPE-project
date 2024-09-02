@@ -142,9 +142,9 @@ aside{
 
 
 .white-blue-btn-default{
-    width: 136px;
-    height: 40px;
-    background: white;
+    /* width: 136px;
+    height: 40px; */
+    background: none;
     color:var(--dark-blue-bg);
     font-size: 1.2rem;
     font-weight: 900;
@@ -384,13 +384,115 @@ aside{
     border-radius: 19px;
 }
 
+/* -------------------designed for engineeers------------ */
+
+.designed{
+    position: relative;
+    background: var(--bg-light);
+    z-index: 1;
+    overflow: visible;
+}
+
+.designed::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background:var(--dark-blue-bg);
+    z-index: -1;
+    transform: skewY(-10deg);
+}
 
 
+.engineers{
+    margin-top: 10rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-areas: 
+    "eng-div eng-div api-code api-code"
+    "eng-div eng-div api-code api-code"
+    "tools integrations server server"
+    "tools integrations server server";
+}
+
+.dark-btn{
+    background: var(--light-blue);
+    color: var(--dark-blue-bg);
+    margin-top: 1rem;
+}
 
 
+.eng-div{
+    max-width: 560px;
+    grid-area: eng-div;
+}
+
+.eng-div h4{
+    margin: 1rem 0;
+    font-size: 17px;
+    color: var(--light-blue);
+}
+
+.eng-div h1{
+    font-size: 40px;
+    color: white;
+}
+
+.eng-div p{
+    margin: 1rem 0;
+    font-size: 18px;  
+    color: white;
+}
 
 
+.tools, .integrations{
+    max-width: 278px;
+}
 
+
+.tools{
+    grid-area: tools;
+}
+
+.integrations{
+    grid-area: integrations;
+}
+
+.small-box img{
+    width: 50px;
+}
+
+.small-box h4{
+    font-size: 22px;
+    color: white;
+}
+
+.small-box p{
+    font-size: 14px;
+    color: #ADBDCC;
+    width: 232px;
+}
+
+.api-code{
+    grid-area: api-code;
+}
+
+
+.server{
+    grid-area: server;
+}
+
+
+.api-code, .server{
+    max-width: 470px;
+    border-radius: 19px;
+}
+
+.no-bgrd-btn{
+    color: var(--light-blue);
+}
 
 
 @keyframes color{
