@@ -292,6 +292,7 @@ aside{
 .unified-platform{
     background: var(--bg-light);
     padding-top: 5rem;
+    z-index: 1;
 }
 
 
@@ -403,22 +404,22 @@ aside{
     padding-top: 10rem;
     background: var(--bg-light);
     z-index: 1;
-    /* Remove overflow: hidden; */
-    height: 950px;
-    overflow: visible; /* Ensure the container allows overflow */
+    /* height: 950px; */
+    overflow-x: visible;
+    box-sizing: border-box;
 }
 
 .designed-for-engineers::after{
     content: '';
     position: absolute;
-    top: 0;
-    left: -57%;
-    width: 200%;
-    height: 110%;
-    background-size: 300% 300%;
+    top: -9%;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    box-sizing: border-box;
     background-color: var(--dark-blue-bg);
     z-index: -1;
-    transform: rotate(-10deg);
+    transform: skewY(-10deg);
 }
 
 
@@ -440,9 +441,15 @@ aside{
     color: var(--light-blue);
 }
 
-.eng-div h1,h3,p{
+.eng-div h1{
     color: white;
 }
+
+.eng-div p{
+    color: white;
+}
+
+
 
 .light-blue{
     color: var(--dark-blue-bg);
