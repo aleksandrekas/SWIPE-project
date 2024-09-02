@@ -143,6 +143,12 @@
     .api-code ,.server{
         display: none;
     }
+
+    .designed::before{
+
+        height: 100%;
+
+    }
 }
 
 
