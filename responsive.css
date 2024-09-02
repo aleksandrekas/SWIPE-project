@@ -144,11 +144,6 @@
         display: none;
     }
 
-    .designed::before{
-
-        height: 100%;
-
-    }
 }
 
 
@@ -160,4 +155,9 @@
         height: 50px;
     }
     
+    .designed::before{
+    
+        height: 100%;
+    
+    }
 }
