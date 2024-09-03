@@ -6,6 +6,12 @@
     .unified-grid{
         margin-top: 3rem;
     }
+    .designed::before{
+    
+        top: -150px;
+        height: 130%;
+    
+    }
 }
 
 
@@ -142,6 +148,11 @@
 
     .api-code ,.server{
         display: none;
+    }
+    .designed::before{
+        top: 0;
+        height: 100%;
+    
     }
 
 }
