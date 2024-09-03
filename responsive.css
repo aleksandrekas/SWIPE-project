@@ -28,6 +28,21 @@
 }
 
 
+
+@media only screen and (max-width:1045px){
+    .api-code, .server{
+        width: 370px;
+    }
+}
+
+
+@media only screen and (max-width:950px){
+    .api-code, .server{
+        width: 270px;
+    }
+}
+
+
 @media only screen and (max-width:850px){
     .left h1{
         font-size: 70px;
@@ -42,6 +57,10 @@
     .partners-grid-container{
         gap: 15px;
         margin-top: 5rem;
+    }
+
+    .api-code, .server{
+        display: none;
     }
 }
 
@@ -85,6 +104,14 @@
     .left h1{
         font-size: 58px;
         line-height: 4rem;
+    }
+
+    .flex-container{
+        display: grid;
+        grid-template:1fr 1fr/1fr 1fr;
+    }
+    .why-swipe{
+        padding-top: 10rem;
     }
 }
 
