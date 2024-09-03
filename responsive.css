@@ -12,6 +12,13 @@
         height: 130%;
     
     }
+    .global{
+        overflow-x: hidden;
+        margin: 0;
+        margin-top: 0;
+        padding: 0 1rem;
+    }
+    
 }
 
 
@@ -33,12 +40,21 @@
     .api-code, .server{
         width: 370px;
     }
+    .global-graphic{
+        left: 500px;
+        top: 150px;
+    }
 }
 
 
 @media only screen and (max-width:950px){
     .api-code, .server{
         width: 270px;
+    }
+
+    .global-graphic{
+        left: 400px;
+        top: 150px;
     }
 }
 
@@ -61,6 +77,11 @@
 
     .api-code, .server{
         display: none;
+    }
+
+    .global-graphic{
+        left: 300px;
+        top: 150px;
     }
 }
 
@@ -113,6 +134,11 @@
     .why-swipe{
         padding-top: 10rem;
     }
+
+    .global-graphic{
+        left: 250px;
+        top: 150px;
+    }
 }
 
 
@@ -146,6 +172,10 @@
 
     .unified-grid{
         margin-top: 3rem;
+    }
+    .global-graphic{
+        left: 10px;
+        top: 150px;
     }
 }
 
