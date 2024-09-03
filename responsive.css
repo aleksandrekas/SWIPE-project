@@ -18,6 +18,11 @@
         margin-top: 0;
         padding: 0 1rem;
     }
+
+    .swipe-sessions{
+        width: 472px;
+        height: 400px;
+    }
     
 }
 
@@ -44,6 +49,12 @@
     .global-graphic{
         left: 500px;
     }
+
+    .swipe-sessions{
+        width: 400px;
+        height: 300px;
+    }
+
 }
 
 
@@ -136,6 +147,23 @@
     .global-graphic{
         left: 250px;
         
+    }
+    .virtual-flex{
+        flex-direction: column;
+    }
+
+    .virtual-left{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .swipe-sessions{
+        width: 572px;
+        height: 446px;
+    }
+
+    .right-virtual{
+        display: flex;
     }
 }
 
