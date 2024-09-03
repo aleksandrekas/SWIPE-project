@@ -32,6 +32,7 @@
         font-size: 80px;
         line-height: 6rem;
     }
+
 }
 
 
@@ -42,7 +43,6 @@
     }
     .global-graphic{
         left: 500px;
-        top: 150px;
     }
 }
 
@@ -54,7 +54,6 @@
 
     .global-graphic{
         left: 400px;
-        top: 150px;
     }
 }
 
@@ -81,7 +80,6 @@
 
     .global-graphic{
         left: 300px;
-        top: 150px;
     }
 }
 
@@ -137,7 +135,7 @@
 
     .global-graphic{
         left: 250px;
-        top: 150px;
+        
     }
 }
 
@@ -175,7 +173,7 @@
     }
     .global-graphic{
         left: 10px;
-        top: 150px;
+        
     }
 }
 
