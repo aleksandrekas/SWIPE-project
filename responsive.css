@@ -249,6 +249,13 @@
     .right-virtual .flex-items{
         margin-bottom: 2rem;
     }
+
+    .footer{
+        display: grid;
+        grid-template: 1fr 1fr/1fr 1fr;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
 
