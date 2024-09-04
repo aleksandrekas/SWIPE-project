@@ -23,6 +23,11 @@
         width: 472px;
         height: 400px;
     }
+    .swipe-logo-long{
+        top: 100px;
+        left: 100px;
+        max-width:300px ;
+    }
     
 }
 
@@ -53,6 +58,20 @@
     .swipe-sessions{
         width: 400px;
         height: 300px;
+    }
+
+    .swipe-logo-long{
+        top: 60px;
+        left: 70px;
+        max-width:250px;
+    }
+
+    .hero{
+        width: 60px;
+        bottom: 110px;
+    }
+    .male{
+        left: 90px;
     }
 
 }
@@ -160,6 +179,21 @@
     .swipe-sessions{
         width: 572px;
         height: 446px;
+    }
+
+    .hero{
+        width: 80px;
+        bottom: 150px;
+    }
+    .male{
+        left: 110px;
+    }
+    
+
+    .swipe-logo-long{
+        top: 100px;
+        left: 100px;
+        max-width:338px ;
     }
 
     .right-virtual{
@@ -274,10 +308,27 @@
     }
 
     .swipe-sessions{
-        width: 450px;
+        width: 420px;
         height: 350px;
     }
+    .swipe-logo-long{
+        top: 100px;
+        left: 100px;
+        max-width:300px ;
+    }
 
+    .swipe-logo-long{
+        top: 70px;
+        left: 70px;
+        max-width:300px ;
+    }
+    .hero{
+        width: 70px;
+        bottom: 120px;
+    }
+    .male{
+        left: 100px;
+    }
 }
 
 
@@ -296,12 +347,21 @@
     }
 
     .swipe-sessions{
-        width: 400px;
-        height: 350px;
+        width: 390px;
+        height: 320px;
     }
 
+    .swipe-logo-long{
+        top: 70px;
+        left: 70px;
+        max-width:250px ;
+    }
     .payments-cont .left h1{
         font-size: 50px;
+    }
+    .hero{
+        width: 60px;
+        bottom: 120px;
     }
 }
 
@@ -311,4 +371,26 @@
         width: 350px;
         height: 250px;
     }
+    .swipe-logo-long{
+        top: 40px;
+        left: 90px;
+        max-width:150px ;
+    }
+
+    .swipe-sessions h6{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .swipe-sessions p{
+        font-size: 12px;
+    }
+    .hero{
+        width: 40px;
+        bottom: 110px;
+    }
+    .male{
+        left: 80px;
+    }
+
 }
